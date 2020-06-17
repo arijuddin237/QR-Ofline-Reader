@@ -1,0 +1,22 @@
+library qr_offline_order;
+
+String apiUrl = ''; 
+String endpointSendData = ''; 
+String endpointGetPlu = ''; 
+String endpointGetOperator = '';
+String endpointGetModifier = '';
+String currency = ''; 
+String passwordSpv = ''; 
+String passwordAuth = ''; 
+String loginTime = '';
+int operatorID;
+int decimalPoint = 0; 
+bool changeOperator = false;
+bool editOrder = false;
+bool auth = false;
+bool tableOveride = false;
+bool cover = false;
+double fontSizeHeading = 0;
+double fontSizeContent = 0;
+double fontSizeContentUser = 0;
+Map test = {};
